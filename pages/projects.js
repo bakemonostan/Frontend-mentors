@@ -2,10 +2,23 @@ import Button from '../components/button/button';
 import styles from '../styles/project.module.css';
 import Link from 'next/link';
 import Card from '../components/card/Card';
-
 import Img from '../public/assets/bookmark/images/desktop-preview.jpg';
 
 const Projects = () => {
+  const ProjectDetails = [
+    {
+      name: 'Bookmark Landing',
+      details:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque cupiditate nisi modi distinctio voluptatem dignissimos est rerum nesciunt illo.',
+      previewImg: '../public/assets/bookmark/images/desktop-preview.jpg',
+    },
+    {
+      name: 'Bookmark Landing',
+      details:
+        ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque cupiditate nisi modi distinctio voluptatem dignissimos est rerum nesciunt illo.',
+      previewImg: '../public/assets/bookmark/images/desktop-preview.jpg',
+    },
+  ];
   return (
     <main className={styles.container}>
       <div className={styles.title}>
@@ -19,18 +32,7 @@ const Projects = () => {
             img={Img}
           >
             <Button>
-              <Link href='/'>
-                <a>Live view </a>
-              </Link>
-            </Button>
-          </Card>
-          <Card
-            title='Bookmark Landing'
-            details=' Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus neque cupiditate nisi modi distinctio voluptatem dignissimos est rerum nesciunt illo.'
-            img={Img}
-          >
-            <Button>
-              <Link href='/'>
+              <Link href='/bookmark-landingpage'>
                 <a>Live view </a>
               </Link>
             </Button>
