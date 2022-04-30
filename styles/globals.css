@@ -1,9 +1,19 @@
-html,
-body {
+* {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: Tapestry, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+html,
+body {
+  background-image: linear-gradient(
+      0deg,
+      rgba(31, 40, 51, 0.8),
+      rgba(31, 40, 51, 0.8)
+    ),
+    url('../public/assets/home/bg-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 a {
@@ -11,12 +21,15 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 :root {
   /* Colors */
+  /* Home */
+  --bgcolor1: #0b0c10;
+  --bgcolor2: #1f2833;
+  --font-color: #c5c6c7;
+  --heading: #66fcf1;
+  --btn-color: #45a29e;
+
   /* Booking Landing */
   --soft-blue: hsl(231, 69%, 60%);
   --soft-red: hsl(0, 94%, 66%);

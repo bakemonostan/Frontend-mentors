@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
+// import BgImg from '../public/assets/home/bg-img.jpg';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -12,12 +13,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Body</h1>
+        <h1 className={styles.name}>Ehiz</h1>
+        <h3 className={styles.greeting}>Hello</h3>
+        <p className={styles.info}>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
+          quidem omnis ipsum minima dolore? Ratione eaque, quo aliquid eveniet
+          illum distinctio, saepe ducimus modi quod dolorem dolores, repellendus
+          unde temporibus illo ut! Rem, aperiam consectetur!
+        </p>
+        <button className={styles.btn}>
+          <p>View Projects</p>
+        </button>
       </main>
-
-      <footer className={styles.footer}>
-        <p>Footer</p>
-      </footer>
     </div>
   );
 }
