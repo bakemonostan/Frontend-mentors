@@ -3,11 +3,25 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head></Head>
+        <Head>
+          <link
+            href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap'
+            rel='stylesheet'
+          />
+
+          <link
+            href='https://fonts.googleapis.com/css2?family=Tapestry&display=swap'
+            rel='stylesheet'
+          />
+
+          <link
+            href='https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap'
+            rel='stylesheet'
+          />
+        </Head>
         <body>
-          <Main>
-            <NextScript></NextScript>
-          </Main>
+          <Main />
+          <NextScript />
         </body>
       </Html>
     );
