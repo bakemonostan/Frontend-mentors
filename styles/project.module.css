@@ -1,0 +1,28 @@
+.container {
+  background-color: #153733;
+  background-image: linear-gradient(295deg, #153733 18%, #222224 37%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0.4rem 0;
+  color: var(--heading);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.title {
+  margin: 1rem 0 0;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cardContainer {
+  color: var(--font-color);
+  margin: 1rem 0 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

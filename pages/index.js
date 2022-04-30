@@ -1,6 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image';
-// import BgImg from '../public/assets/home/bg-img.jpg';
+import Link from 'next/link';
+import Button from '../components/button/button';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -21,9 +21,11 @@ export default function Home() {
           illum distinctio, saepe ducimus modi quod dolorem dolores, repellendus
           unde temporibus illo ut! Rem, aperiam consectetur!
         </p>
-        <button className={styles.btn}>
-          <p>View Projects</p>
-        </button>
+        <Button>
+          <Link href='/projects'>
+            <a>Go to Projects</a>
+          </Link>
+        </Button>
       </main>
     </div>
   );
