@@ -3,13 +3,12 @@ import styles from '../../styles/Bookmark.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { Logo } from '../../components';
+import { BookmarkBtn, BookmarkCard, Logo } from '../../components';
 import {
   Hamburger,
   DesktopImg,
   DesktopImgTwo,
 } from '../../public/assets/bookmark';
-import StyledButton from '../../components/styledComponents/Bookmark-btn';
 
 const Bookmark = () => {
   return (
@@ -52,8 +51,8 @@ const Bookmark = () => {
               Open a new browser tab and see your sites load instantly. Try it
               free.
             </p>
-            <StyledButton primary>Get it on Chrome</StyledButton>
-            <StyledButton>Get it on Firefox</StyledButton>
+            <BookmarkBtn primary>Get it on Chrome</BookmarkBtn>
+            <BookmarkBtn>Get it on Firefox</BookmarkBtn>
           </div>
 
           {/* Features */}
@@ -101,6 +100,7 @@ const Bookmark = () => {
             </p>
           </div>
         </section>
+        {/* <BookmarkCard /> */}
       </main>
     </div>
   );
