@@ -4,7 +4,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import { Logo } from '../../components';
-import { Hamburger, DesktopImg } from '../../public/assets/bookmark';
+import {
+  Hamburger,
+  DesktopImg,
+  DesktopImgTwo,
+} from '../../public/assets/bookmark';
 import StyledButton from '../../components/styledComponents/Bookmark-btn';
 
 const Bookmark = () => {
@@ -63,6 +67,38 @@ const Bookmark = () => {
             <h3 className={styles.featureOne}>Simple Bookmarking</h3>
             <h3 className={styles.featureTwo}>Speedy Searching</h3>
             <h3 className={styles.featureThree}>Easy Sharing</h3>
+          </div>
+        </section>
+
+        {/* Section Two */}
+        <section className={styles.sectionTwo}>
+          <div className={styles.imgBoxTwo}>
+            <Image
+              src={DesktopImgTwo}
+              alt='a desktop image'
+              className={styles.imageTwo}
+              // width={320}
+              // height={220}
+            />
+          </div>
+
+          <div>
+            <h2 className={styles.headTwo}>Bookmark in one click</h2>
+            <p className={styles.infoTwo}>
+              Organize your bookmarks however you like. Our simple drag-and-drop
+              interface gives you complete control over how you manage your
+              favourite sites
+            </p>
+          </div>
+        </section>
+        <section className={styles.sectionThree}>
+          <div>
+            <h2 className={styles.headThree}>Download the extension</h2>
+            <p className={styles.infoThree}>
+              We&apos;ve got more browsers in the pipeline. Please do let us
+              know if you&apos;ve got a favourite you&apos;d like us to
+              prioritize
+            </p>
           </div>
         </section>
       </main>

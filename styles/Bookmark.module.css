@@ -13,7 +13,9 @@
   padding: 1.5rem;
 }
 
-.heroSection {
+.heroSection,
+.sectionTwo,
+.sectionThree {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -47,10 +49,22 @@
   line-height: 1.5;
   color: var(--dark-blue);
 }
+.headTwo {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 0.5rem 0 1rem;
+  color: var(--dark-blue);
+}
 
 .heroInfo {
   color: var(--greyish-blue);
   padding: 0 2.5rem 1rem;
+  line-height: 1.5;
+}
+
+.infoTwo {
+  color: var(--greyish-blue);
+  padding: 0 1.5rem 1rem;
   line-height: 1.5;
 }
 
@@ -69,7 +83,7 @@
   color: var(--greyish-blue);
   text-align: center;
   margin: 0 1.5rem;
-  padding: 0 0.5rem 3rem;
+  padding: 0 0 3rem;
   line-height: 1.6;
   border-bottom: 2px solid rgb(204, 201, 201);
 }
@@ -114,4 +128,25 @@
 .featureThree:hover {
   font-weight: 500;
   color: var(--dark-blue);
+}
+
+.imgBoxTwo {
+  margin-top: 3rem;
+  width: 320px;
+  height: 320px;
+}
+
+.headThree {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 5rem 0 1rem;
+  color: var(--dark-blue);
+  margin-top: 5rem;
+}
+
+.infoThree {
+  color: var(--greyish-blue);
+  padding: 0 1.5rem 1rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
 }
