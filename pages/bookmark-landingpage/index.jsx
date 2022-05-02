@@ -3,7 +3,13 @@ import styles from '../../styles/Bookmark.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { BookmarkBtn, BookmarkCard, FAQ, Logo } from '../../components';
+import {
+  BookmarkBtn,
+  BookmarkCard,
+  BookmarkFooter,
+  FAQ,
+  Logo,
+} from '../../components';
 import {
   Hamburger,
   DesktopImg,
@@ -135,13 +141,19 @@ const Bookmark = () => {
             </p>
           </div>
         </section>
-        <section className={styles.faqSection}>
-          <FAQ text='What is a Bookmark?' />
-          <FAQ text='What is a Bookmark?' />
-          <FAQ text='What is a Bookmark?' />
+        <FAQ text='What is a Bookmark?' />
+        <FAQ text='What is a Bookmark?' />
+        <FAQ text='What is a Bookmark?' />
+        <section className={styles.faqBtn}>
           <BookmarkBtn primary>More Info</BookmarkBtn>
         </section>
+        {/* <section className={styles.contactUsSection}>
+         
+         <input type="text" placeholder='Enter you email address' />
+          <BookmarkBtn secondary>Contact us</BookmarkBtn>
+        </section> */}
       </main>
+      <BookmarkFooter />
     </div>
   );
 };

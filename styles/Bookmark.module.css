@@ -168,7 +168,10 @@
   margin-bottom: 3rem;
 }
 
-.faqSection {
+.faqBtn {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem 0 6rem;
 }

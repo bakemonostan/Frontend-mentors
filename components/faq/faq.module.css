@@ -1,12 +1,16 @@
 .faq {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid rgb(216, 221, 236);
+  margin: 0 0.5rem;
   color: var(--dark-blue);
   font-weight: 500;
   font-size: 1rem;
+  cursor: pointer;
 }
 
-.text {
-  margin: 1rem;
+.text,
+.icon {
+  margin: 1rem 0;
 }
