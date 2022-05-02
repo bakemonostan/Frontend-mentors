@@ -15,7 +15,9 @@
 
 .heroSection,
 .sectionTwo,
-.sectionThree {
+.sectionThree,
+.sectionFour,
+.cardSection {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -149,4 +151,24 @@
   padding: 0 1.5rem 1rem;
   line-height: 1.5;
   margin-bottom: 3rem;
+}
+
+.headFour {
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding: 5rem 2rem 1rem;
+  color: var(--dark-blue);
+  margin-top: 3rem;
+}
+
+.infoFour {
+  color: var(--greyish-blue);
+  padding: 0 1rem 1rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.faqSection {
+  display: flex;
+  flex-direction: column;
 }

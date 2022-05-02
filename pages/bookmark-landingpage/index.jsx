@@ -3,10 +3,11 @@ import styles from '../../styles/Bookmark.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
-import { BookmarkBtn, BookmarkCard, Logo } from '../../components';
+import { BookmarkBtn, BookmarkCard, FAQ, Logo } from '../../components';
 import {
   Hamburger,
   DesktopImg,
+  chromeIcon,
   DesktopImgTwo,
 } from '../../public/assets/bookmark';
 
@@ -100,7 +101,46 @@ const Bookmark = () => {
             </p>
           </div>
         </section>
-        {/* <BookmarkCard /> */}
+        <section className={styles.cardSection}>
+          <BookmarkCard
+            img={chromeIcon}
+            title='Add to Chrome'
+            info='Minimum version 62'
+            btnText='Add & Install Extensions'
+          />
+        </section>
+        <section className={styles.cardSection}>
+          <BookmarkCard
+            img={chromeIcon}
+            title='Add to Chrome'
+            info='Minimum version 62'
+            btnText='Add & Install Extensions'
+          />
+        </section>
+        <section className={styles.cardSection}>
+          <BookmarkCard
+            img={chromeIcon}
+            title='Add to Chrome'
+            info='Minimum version 62'
+            btnText='Add & Install Extensions'
+          />
+        </section>
+
+        <section className={styles.sectionFour}>
+          <div>
+            <h2 className={styles.headFour}>Frequently asked Questions</h2>
+            <p className={styles.infoFour}>
+              Here are some of our FAQs. If you have any other questions
+              you&apos;d liked answered please feel free to email us
+            </p>
+          </div>
+        </section>
+        <section className={styles.faqSection}>
+          <FAQ text='What is a Bookmark?' />
+          <FAQ text='What is a Bookmark?' />
+          <FAQ text='What is a Bookmark?' />
+          <BookmarkBtn primary>More Info</BookmarkBtn>
+        </section>
       </main>
     </div>
   );

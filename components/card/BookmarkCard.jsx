@@ -1,20 +1,22 @@
 import Image from 'next/image';
-import { BookmarkBtn } from '..';
+import { BookmarkBtn, StyledCard as Wrapper } from '..';
 import { dots } from '../../public/assets/bookmark';
 
-const BookmarkCard = ({ img, title, info }) => {
+const BookmarkCard = ({ img, title, info, btnText }) => {
   return (
-    <div>
+    <Wrapper>
       <div className='img'>
         <Image src={img} alt='browserLogo' className='cardImage' />
       </div>
-      <div className='cardbody'>
+      <div className='cardBody'>
         <h3 className='cardTitle'>{title}</h3>
         <p>{info}</p>
       </div>
       <Image src={dots} alt='browserLogo' className='bgDots' />
-      <BookmarkBtn primary />
-    </div>
+      <BookmarkBtn primary className='btn'>
+        {btnText}
+      </BookmarkBtn>
+    </Wrapper>
   );
 };
 export default BookmarkCard;

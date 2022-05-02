@@ -6,6 +6,7 @@ import chromeIcon from './images/logo-chrome.svg';
 import operaIcon from './images/logo-opera.svg';
 import firefoxIcon from './images/logo-firefox.svg';
 import dots from './images/bg-dots.svg';
+import arrow from './images/icon-arrow.svg';
 
 export {
   LogoIcon,
@@ -16,4 +17,5 @@ export {
   operaIcon,
   firefoxIcon,
   dots,
+  arrow,
 };
