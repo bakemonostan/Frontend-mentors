@@ -1,4 +1,5 @@
 import LogoIcon from './images/logo-bookmark.svg';
+import footerLogo from './images/logo-footer.svg';
 import Hamburger from './images/icon-hamburger.svg';
 import DesktopImg from './images/illustration-hero.svg';
 import DesktopImgTwo from './images/illustration-features-tab-1.svg';
@@ -23,4 +24,5 @@ export {
   arrow,
   fbIcon,
   twitterIcon,
+  footerLogo,
 };
