@@ -1,4 +1,4 @@
-import LogoIcon from './images/logo-bookmark.svg';
+import LogoIcon from '../bookmark/images/logo-bookmark.svg';
 import footerLogo from './images/logo-footer.svg';
 import Hamburger from './images/icon-hamburger.svg';
 import DesktopImg from './images/illustration-hero.svg';
@@ -10,6 +10,7 @@ import dots from './images/bg-dots.svg';
 import arrow from './images/icon-arrow.svg';
 import fbIcon from './images/icon-facebook.svg';
 import twitterIcon from './images/icon-twitter.svg';
+// import BkmarkLogo from './images/logo-bookmark.svg';
 // import arrow from './images/icon-arrow.svg';
 
 export {

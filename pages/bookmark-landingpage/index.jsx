@@ -15,7 +15,8 @@ import {
   DesktopImg,
   chromeIcon,
   DesktopImgTwo,
-} from '../../public/assets/bookmark';
+  LogoIcon,
+} from '../../public/bookmark';
 
 const Bookmark = () => {
   return (
@@ -27,133 +28,11 @@ const Bookmark = () => {
       </Head>
       <main>
         {/* Navbar */}
-        <div>
-          <nav className={styles.nav}>
-            <Logo />
-
-            <div>
-              <Image
-                className={styles.icon}
-                src={Hamburger}
-                alt='hamburger Icon'
-              />
-            </div>
-          </nav>
-        </div>
-        <section className={styles.heroSection}>
-          <div className={styles.imgBox}>
-            <Image
-              src={DesktopImg}
-              alt='a desktop image'
-              className={styles.heroImage}
-              // width={450}
-              // height={350}
-            />
-          </div>
-
-          <div>
-            <h1 className={styles.head}>A simple Bookmark Manager</h1>
-            <p className={styles.heroInfo}>
-              A clean and simple interface to organize your favourite websites.
-              Open a new browser tab and see your sites load instantly. Try it
-              free.
-            </p>
-            <BookmarkBtn primary>Get it on Chrome</BookmarkBtn>
-            <BookmarkBtn>Get it on Firefox</BookmarkBtn>
-          </div>
-
-          {/* Features */}
-          <div className={styles.features}>
-            <h3 className={styles.featuresHead}>Features</h3>
-            <p className={styles.featuresDetails}>
-              Our aim is to make it quick and easy for you to access your
-              favourite website. Your bookmarks sync between your devices so you
-              can access them on the go.
-            </p>
-            <h3 className={styles.featureOne}>Simple Bookmarking</h3>
-            <h3 className={styles.featureTwo}>Speedy Searching</h3>
-            <h3 className={styles.featureThree}>Easy Sharing</h3>
-          </div>
-        </section>
-
-        {/* Section Two */}
-        <section className={styles.sectionTwo}>
-          <div className={styles.imgBoxTwo}>
-            <Image
-              src={DesktopImgTwo}
-              alt='a desktop image'
-              className={styles.imageTwo}
-              // width={320}
-              // height={220}
-            />
-          </div>
-
-          <div>
-            <h2 className={styles.headTwo}>Bookmark in one click</h2>
-            <p className={styles.infoTwo}>
-              Organize your bookmarks however you like. Our simple drag-and-drop
-              interface gives you complete control over how you manage your
-              favourite sites
-            </p>
-          </div>
-        </section>
-        <section className={styles.sectionThree}>
-          <div>
-            <h2 className={styles.headThree}>Download the extension</h2>
-            <p className={styles.infoThree}>
-              We&apos;ve got more browsers in the pipeline. Please do let us
-              know if you&apos;ve got a favourite you&apos;d like us to
-              prioritize
-            </p>
-          </div>
-        </section>
-        <section className={styles.cardSection}>
-          <BookmarkCard
-            img={chromeIcon}
-            title='Add to Chrome'
-            info='Minimum version 62'
-            btnText='Add & Install Extensions'
-          />
-        </section>
-        <section className={styles.cardSection}>
-          <BookmarkCard
-            img={chromeIcon}
-            title='Add to Chrome'
-            info='Minimum version 62'
-            btnText='Add & Install Extensions'
-          />
-        </section>
-        <section className={styles.cardSection}>
-          <BookmarkCard
-            img={chromeIcon}
-            title='Add to Chrome'
-            info='Minimum version 62'
-            btnText='Add & Install Extensions'
-          />
-        </section>
-
-        <section className={styles.sectionFour}>
-          <div>
-            <h2 className={styles.headFour}>Frequently asked Questions</h2>
-            <p className={styles.infoFour}>
-              Here are some of our FAQs. If you have any other questions
-              you&apos;d liked answered please feel free to email us
-            </p>
-          </div>
-        </section>
-        <FAQ text='What is a Bookmark?' />
-        <FAQ text='What is a Bookmark?' />
-        <FAQ text='What is a Bookmark?' />
-        <section className={styles.faqBtn}>
-          <BookmarkBtn primary>More Info</BookmarkBtn>
-        </section>
-        {/* <section className={styles.contactUsSection}>
-         
-         <input type="text" placeholder='Enter you email address' />
-          <BookmarkBtn secondary>Contact us</BookmarkBtn>
-        </section> */}
+        <nav className={styles.navbar}>
+          <div className={styles.logo}>{/* <Logo /> */}</div>
+          <div className={styles.navItems}></div>
+        </nav>
       </main>
-      <BookmarkFooter />
     </div>
   );
 };

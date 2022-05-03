@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { BookmarkBtn, StyledCard as Wrapper } from '..';
-import { dots } from '../../public/assets/bookmark';
+import { dots } from '../../public/bookmark';
 
 const BookmarkCard = ({ img, title, info, btnText }) => {
   return (

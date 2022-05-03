@@ -20,8 +20,11 @@
 
 .icons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
-  padding: 1rem 10rem;
+}
+.fbIcon,
+.twitterIcon {
+  margin: 1rem;
 }

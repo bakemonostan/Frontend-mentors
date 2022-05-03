@@ -1,4 +1,4 @@
-import { arrow } from '../../public/assets/bookmark';
+import { arrow } from '../../public/bookmark';
 import Image from 'next/image';
 import styles from './faq.module.css';
 
