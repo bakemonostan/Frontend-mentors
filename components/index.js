@@ -1,19 +1,5 @@
-import Logo from './Bookmark-logo/Logo';
-import Button from './button/button';
-import Card from './card/Card';
-import BookmarkBtn from './styledComponents/styledBtn';
-import BookmarkCard from './card/BookmarkCard';
-import BookmarkFooter from './footer/BookmarkFooter';
-import StyledCard from './styledComponents/styledCard';
-import FAQ from './faq/faqSection';
+import BkMarkNavbar from './Bookmark/Navbar/Navbar.jsx';
+import StyledBtn from './styledComponents/styledBtn.js';
+import HeroSection from './Bookmark/HeroSection/HeroSection.jsx';
 
-export {
-  BookmarkFooter,
-  Logo,
-  Button,
-  Card,
-  BookmarkBtn,
-  BookmarkCard,
-  StyledCard,
-  FAQ,
-};
+export { BkMarkNavbar, StyledBtn, HeroSection };

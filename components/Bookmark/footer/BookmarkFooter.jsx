@@ -1,5 +1,5 @@
 import Logo from '../Bookmark-logo/Logo';
-import { footerLogo, twitterIcon, fbIcon } from '../../public/bookmark';
+import { footerLogo, twitterIcon, fbIcon } from '../../../public/bookmark';
 import Image from 'next/image';
 import styles from './footer.module.css';
 

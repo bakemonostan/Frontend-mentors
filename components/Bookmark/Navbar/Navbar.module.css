@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.navList {
+  display: none;
+}
+
+.navListItem {
+  margin: 0 1.5rem;
+}
+
+@media (min-width: 820px) {
+  .navList {
+    display: none;
+  }
+
+  .navList {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--greyish-blue);
+    font-size: 0.9rem;
+  }
+  .navbar {
+    padding: 1rem 8rem;
+  }
+}
