@@ -12,6 +12,14 @@ const StyledButton = styled.button`
   font-weight: 500;
   box-shadow: 0px 2px 5px var(--greyish-blue);
   cursor: pointer;
+
+  &:hover {
+    color: blue;
+  }
+
+  /* @media (min-width: 1080px) {
+
+  } */
 `;
 
 export default StyledButton;
