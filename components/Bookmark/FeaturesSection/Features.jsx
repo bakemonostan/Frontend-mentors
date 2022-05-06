@@ -9,6 +9,11 @@ const Features = () => {
         websites. Your bookmarks sync between your devices so you can access
         them on the go.
       </p>
+      <div className={styles.categories}>
+        <span>Simple Bookmarking</span>
+        <span>Speedy Searching</span>
+        <span>Easy Sharing</span>
+      </div>
     </div>
   );
 };

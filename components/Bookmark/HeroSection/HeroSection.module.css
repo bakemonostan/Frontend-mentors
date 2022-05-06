@@ -3,14 +3,17 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 2rem;
 }
 
 .heroInfo {
   text-align: center;
-  /* flex-basis: 320px; */
+  display: flex;
+  flex-direction: column;
+  flex-basis: 320px;
   padding: 1rem 4rem;
+  margin-top: 2rem;
 }
 .heroHeading {
   font-weight: 500;
@@ -21,6 +24,7 @@
   line-height: 1.2;
 }
 .heroDetails {
+  /* border: 1px solid rgb(155, 193, 226); */
   width: 320px;
   line-height: 1.5;
   font-size: 1rem;
@@ -31,7 +35,7 @@
 .heroBtn {
   display: flex;
   justify-content: center;
-  gap: 5%;
+  gap: 20px;
 }
 
 .heroImage {
@@ -59,6 +63,7 @@
   }
 
   .heroDetails {
+    /* text-align: center; */
     font-size: 1.1rem;
     line-height: 1.7;
     width: 480px;
@@ -72,10 +77,11 @@
 }
 
 @media (min-width: 1380px) {
+  .heroDetails,
   .heroInfo {
     text-align: left;
-    /* padding: 1rem 8rem; */
   }
+
   .heroBtn {
     display: flex;
     justify-content: flex-start;
