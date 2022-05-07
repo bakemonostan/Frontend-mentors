@@ -1,6 +1,11 @@
 import Head from 'next/head';
 import styles from '../../styles/Bookmark.module.css';
-import { BkMarkNavbar, Features, HeroSection } from '../../components';
+import {
+  BkMarkNavbar,
+  Features,
+  HeroSection,
+  SectionTwo,
+} from '../../components';
 // import Link from 'next/link';
 // import Image from 'next/image';
 
@@ -17,6 +22,7 @@ const Bookmark = () => {
         <div className={styles.heroContainer}>
           <HeroSection />
           <Features />
+          <SectionTwo />
         </div>
       </main>
     </div>

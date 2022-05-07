@@ -4,13 +4,15 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section className={styles.heroSection}>
-      <div className={styles.heroInfo}>
-        <h1 className={styles.heroHeading}>A simple bookmark manager</h1>
-        <p className={styles.heroDetails}>
-          A clean and simple interface to organize your favourite websites. Open
-          a new browser tab and see your site load instantly. Try it for free
+    <section className={styles.container}>
+      <div className={styles.infoBox}>
+        <h1 className={styles.head}>A simple bookmark manager</h1>
+        <p className={styles.details}>
+          Organize your bookmark however you like. Our Simple drag-and-drop
+          interface gives you complete control over how you manage your
+          favourite sites
         </p>
+
         <div className={styles.heroBtn}>
           <StyledBtn>Get it on Chrome</StyledBtn>
           <StyledBtn fontColor='black' color='white'>

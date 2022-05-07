@@ -1,9 +1,70 @@
-.heroSection {
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.infoBox {
+  padding-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+
+.head {
+  padding: 2rem 2rem 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+}
+
+.details {
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 1rem;
+  word-spacing: 2px;
+  color: var(--greyish-blue);
+}
+
+.heroBtn {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+}
+
+@media (min-width: 1140px) {
+  .details,
+  .info,
+  .head {
+    text-align: left;
+  }
+  .head {
+    font-size: 3rem;
+
+    padding: 1rem 2rem 1rem 0;
+  }
+
+  .details {
+    padding: 1.5rem 0;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+
+  .heroBtn {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+/* .heroSection {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: center;
-  /* align-items: center; */
   margin-top: 2rem;
 }
 
@@ -12,19 +73,18 @@
   display: flex;
   flex-direction: column;
   flex-basis: 320px;
-  padding: 1rem 4rem;
+  padding: 3rem 4rem;
   margin-top: 2rem;
 }
 .heroHeading {
   font-weight: 500;
   color: var(--dark-blue);
   text-transform: capitalize;
-  padding: 0 0 1rem;
+  padding: 0 0 2rem;
   font-size: 2rem;
   line-height: 1.2;
 }
 .heroDetails {
-  /* border: 1px solid rgb(155, 193, 226); */
   width: 320px;
   line-height: 1.5;
   font-size: 1rem;
@@ -49,7 +109,6 @@
   }
   .heroInfo {
     text-align: center;
-    /* padding: 1rem 8rem; */
   }
   .heroHeading {
     padding: 0 2rem 0rem 0;
@@ -63,16 +122,14 @@
   }
 
   .heroDetails {
-    /* text-align: center; */
     font-size: 1.1rem;
-    line-height: 1.7;
+    line-height: 1.9;
     width: 480px;
-    padding: 0 0 2rem;
+    padding: 2rem 0 2rem;
   }
 
   .heroImage {
     margin-left: 5rem;
-    /* flex-basis: 600px; */
   }
 }
 
@@ -86,4 +143,4 @@
     display: flex;
     justify-content: flex-start;
   }
-}
+} */

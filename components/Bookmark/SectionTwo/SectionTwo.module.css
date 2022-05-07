@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+
+.head {
+  padding: 2rem 0;
+  font-weight: 500;
+  color: var(--dark-blue);
+  text-transform: capitalize;
+  font-size: 1.8rem;
+}
+
+.details {
+  line-height: 1.5;
+  font-size: 1rem;
+  padding: 0 4.8rem;
+  word-spacing: 2px;
+  color: var(--greyish-blue);
+}
+
+@media (min-width: 1380px) {
+  .details,
+  .info,
+  .head {
+    text-align: left;
+  }
+
+  .details {
+    padding: 1rem 0;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
+
+  .heroBtn {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
