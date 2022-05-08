@@ -12,6 +12,12 @@ const DownloadSection = () => {
       <BookmarkCard title='Chrome' btnText='random' info='info'>
         <ChromeLogo />
       </BookmarkCard>
+      <BookmarkCard title='Chrome' btnText='random' info='info'>
+        <ChromeLogo />
+      </BookmarkCard>
+      <BookmarkCard title='Chrome' btnText='random' info='info'>
+        <ChromeLogo />
+      </BookmarkCard>
     </div>
   );
 };

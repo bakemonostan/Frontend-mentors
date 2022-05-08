@@ -23,8 +23,6 @@ const Bookmark = () => {
           <Features />
           <SectionTwo />
           <DownloadSection />
-          <DownloadSection />
-          <DownloadSection />
         </div>
       </main>
     </div>

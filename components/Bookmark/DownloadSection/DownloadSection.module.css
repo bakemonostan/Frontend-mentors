@@ -4,4 +4,19 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+}
+
+.head {
+  font-weight: 500;
+  color: var(--dark-blue);
+  font-size: 1.6rem;
+}
+
+.info {
+  font-size: 1rem;
+  max-width: 320px;
+  line-height: 1.5;
+  padding: 1rem 0 2rem;
+  color: var(--greyish-blue);
 }
