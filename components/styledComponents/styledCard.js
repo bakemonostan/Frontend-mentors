@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const StyledCard = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0.5rem 0;
+  padding: 1.5rem 0;
   justify-content: center;
   align-items: center;
   box-shadow: 2px 5px 5px 2px var(--font-color);
@@ -16,8 +16,7 @@ const StyledCard = styled.div`
   }
 
   .cardBody,
-  .cardTitle,
-  .bgDots {
+  .cardTitle {
     padding: 1rem;
   }
   .cardTitle {
@@ -30,7 +29,7 @@ const StyledCard = styled.div`
 
   .btn {
     width: 80%;
-    margin-top: 1.5rem;
+    margin: 1rem 0;
   }
 `;
 

@@ -7,7 +7,10 @@ import Card from './Card.jsx';
 import Features from './Bookmark/FeaturesSection/Features';
 import SectionTwo from './Bookmark/SectionTwo/Sectiontwo.jsx';
 import BookmarkCard from './Bookmark/card/BookmarkCard.jsx';
+import DownloadSection from './Bookmark/DownloadSection/DownloadSection';
+
 export {
+  DownloadSection,
   BookmarkCard,
   Features,
   BkMarkNavbar,

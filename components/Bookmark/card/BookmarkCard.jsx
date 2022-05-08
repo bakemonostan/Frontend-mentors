@@ -8,8 +8,8 @@ const BookmarkCard = ({ children, title, info, btnText }) => {
       <div className='cardBody'>
         <h3 className='cardTitle'>{title}</h3>
         <p>{info}</p>
+        <Dots className='bgDots' />
       </div>
-      <Dots className='bgDots' />
       <Button primary className='btn'>
         {btnText}
       </Button>

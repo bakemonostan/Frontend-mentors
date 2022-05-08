@@ -5,8 +5,9 @@ import {
   Features,
   HeroSection,
   SectionTwo,
+  DownloadSection,
 } from '../../components';
-import DownloadSection from '../../components/Bookmark/DownloadSection/DownloadSection';
+// import DownloadSection from '../../components/Bookmark/DownloadSection/DownloadSection';
 
 const Bookmark = () => {
   return (
@@ -18,12 +19,10 @@ const Bookmark = () => {
       </Head>
       <BkMarkNavbar />
       <main className={styles.container}>
-        <div className={styles.heroContainer}>
-          <HeroSection />
-          <Features />
-          <SectionTwo />
-          <DownloadSection />
-        </div>
+        <HeroSection />
+        <Features />
+        <SectionTwo />
+        <DownloadSection />
       </main>
     </div>
   );
