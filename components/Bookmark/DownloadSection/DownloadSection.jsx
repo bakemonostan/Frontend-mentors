@@ -1,16 +1,13 @@
-import BookMarkCard from '../card/BookmarkCard';
-import chrome from '../../../public/bookmark/logo-chrome.svg';
+import BookmarkCard from '../card/BookmarkCard';
+import { ChromeLogo } from '../../../public/bookmark';
 
 const DownloadSection = () => {
   return (
     <div>
       <h3>Download</h3>
-      <BookMarkCard
-        img={chrome}
-        title='Add to Chrome'
-        info='Lorem ipsum dolor sit'
-        btnText='Add and install extension'
-      />
+      <BookmarkCard title='Chrome' btnText='random' info='info'>
+        <ChromeLogo />
+      </BookmarkCard>
     </div>
   );
 };
