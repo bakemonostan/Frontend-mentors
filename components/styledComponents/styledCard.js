@@ -9,7 +9,7 @@ const StyledCard = styled.div`
   box-shadow: 2px 5px 5px 2px var(--font-color);
   margin-bottom: 3rem;
   border-radius: 10px;
-  /* width: 280px; */
+  width: 280px;
 
   .img {
     margin: 1.5rem 0 0;

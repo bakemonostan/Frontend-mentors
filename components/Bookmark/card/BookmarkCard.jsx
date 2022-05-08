@@ -1,19 +1,19 @@
 import Image from 'next/image';
-import { Dots, ChromeLogo } from '../../../public/bookmark';
-import { StyledBtn as Button } from '../..';
+import { Dots } from '../../../public/bookmark';
+import { StyledBtn as Button, StyledCard as Wrapper } from '../..';
 const BookmarkCard = ({ children, title, info, btnText }) => {
   return (
-    <div>
+    <Wrapper>
       <div className='img'>{children}</div>
       <div className='cardBody'>
         <h3 className='cardTitle'>{title}</h3>
         <p>{info}</p>
       </div>
-      <Dots />
+      <Dots className='bgDots' />
       <Button primary className='btn'>
         {btnText}
       </Button>
-    </div>
+    </Wrapper>
   );
 };
 export default BookmarkCard;
