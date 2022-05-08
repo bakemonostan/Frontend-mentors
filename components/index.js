@@ -4,7 +4,6 @@ import StyledCard from './styledComponents/styledCard';
 import HeroSection from './Bookmark/HeroSection/HeroSection.jsx';
 import Button from './button/button';
 import Card from './Card.jsx';
-import BookMarkCard from './Bookmark/card/BookmarkCard';
 import Features from './Bookmark/FeaturesSection/Features';
 import SectionTwo from './Bookmark/SectionTwo/Sectiontwo.jsx';
 export {
@@ -15,6 +14,5 @@ export {
   Button,
   Card,
   StyledCard,
-  BookMarkCard,
   SectionTwo,
 };

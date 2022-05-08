@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import { BookMarkCard as Wrapper, Button } from '../..';
 import { Dots } from '../../../public/bookmark';
 
 const BookmarkCard = ({ img, title, info, btnText }) => {
   return (
-    <Wrapper>
+    <div>
       <div className='img'>
         <Image src={img} alt='browserLogo' className='cardImage' />
       </div>
@@ -13,10 +12,7 @@ const BookmarkCard = ({ img, title, info, btnText }) => {
         <p>{info}</p>
       </div>
       <Image src={Dots} alt='browserLogo' className='bgDots' />
-      <Button primary className='btn'>
-        {btnText}
-      </Button>
-    </Wrapper>
+    </div>
   );
 };
 export default BookmarkCard;

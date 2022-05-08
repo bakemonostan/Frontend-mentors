@@ -6,8 +6,6 @@ import {
   HeroSection,
   SectionTwo,
 } from '../../components';
-// import Link from 'next/link';
-// import Image from 'next/image';
 
 const Bookmark = () => {
   return (
