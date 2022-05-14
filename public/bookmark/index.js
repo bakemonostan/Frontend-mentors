@@ -3,5 +3,6 @@ import HeroImage from './illustration-hero.svg';
 import BgImageTwo from './illustration-features-tab-1.svg';
 import Dots from './bg-dots.svg';
 import ChromeLogo from './logo-chrome.svg';
+import Arrow from './icon-arrow.svg';
 
-export { BkmarkLogo, HeroImage, Dots, BgImageTwo, ChromeLogo };
+export { BkmarkLogo, HeroImage, Dots, BgImageTwo, ChromeLogo, Arrow };

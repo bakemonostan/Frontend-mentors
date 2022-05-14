@@ -6,8 +6,8 @@ import {
   HeroSection,
   SectionTwo,
   DownloadSection,
+  FaqSection,
 } from '../../components';
-// import DownloadSection from '../../components/Bookmark/DownloadSection/DownloadSection';
 
 const Bookmark = () => {
   return (
@@ -23,6 +23,7 @@ const Bookmark = () => {
         <Features />
         <SectionTwo />
         <DownloadSection />
+        <FaqSection />
       </main>
     </div>
   );

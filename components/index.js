@@ -8,8 +8,12 @@ import Features from './Bookmark/FeaturesSection/Features';
 import SectionTwo from './Bookmark/SectionTwo/Sectiontwo.jsx';
 import BookmarkCard from './Bookmark/card/BookmarkCard.jsx';
 import DownloadSection from './Bookmark/DownloadSection/DownloadSection';
+import FaqSection from './Bookmark/FaqSection/FaqSection.jsx';
+import FAQ from './faq/FAQs';
 
 export {
+  FaqSection,
+  FAQ,
   DownloadSection,
   BookmarkCard,
   Features,
